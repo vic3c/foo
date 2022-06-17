@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Local PHP Security Checker
-        uses: docker://pplotka/local-php-security-checker-github-actions
+      - name: PHP Security Checker
+        uses: symfonycorp/security-checker-action@v3
